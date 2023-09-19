@@ -1,0 +1,63 @@
+/* CSS for the overall page styling */
+body {
+    font-family: Arial, sans-serif; /* Font family for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('images/background.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image repetition */
+    height: 100vh; /* Set the body height to fill the viewport */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange child elements vertically */
+    align-items: center; /* Center horizontally within the viewport */
+    justify-content: center; /* Center vertically within the viewport */
+}
+
+/* Styling for the poster container */
+.poster {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px; /* Add padding to the container */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text within the container */
+}
+
+/* Styling for the logo image */
+.logo {
+    width: 100px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for the main headline */
+h1 {
+    font-size: 36px; /* Set font size */
+    margin-top: 10px; /* Add top margin */
+}
+
+/* Styling for the list of attractions */
+.attractions {
+    font-size: 20px; /* Set font size */
+    margin-top: 20px; /* Add top margin */
+}
+
+/* Styling for the unordered list */
+ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default list padding */
+}
+
+/* Styling for list items */
+li {
+    margin: 10px 0; /* Add vertical margin to list items */
+}
+
+/* Styling for the contact section */
+.contact {
+    margin-top: 30px; /* Add top margin */
+}
+
+/* Styling for hyperlinks */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set link color */
+}
